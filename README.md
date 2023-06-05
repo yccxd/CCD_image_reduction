@@ -1,12 +1,12 @@
 # CCD_image_reduction
-A simple python script for astronomical image reduction
+A simple python script for astronomical image reduction  
 
 # Structure of the file
-LOT20xxXXXX /             # 
-            / bias-dark   # containing bias and dark frames
-            / flat        # containing flat field and dedicated dark frames for the flat field (optional)
-!!! You can create a folder named 'BLKS' anywhere in the based folder. 
-!!! Images in this folder will be ignored in this pipeline. 
+LOT20xxXXXX /             #   
+            / bias-dark   # containing bias and dark frames  
+            / flat        # containing flat field and dedicated dark frames for the flat field (optional)  
+!!! You can create a folder named 'BLKS' anywhere in the based folder.  
+!!! Images in this folder will be ignored in this pipeline.  
 
 # Setup environment variables
 basepath = ''			            # relative or absolute path of the images
